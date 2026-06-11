@@ -1,0 +1,325 @@
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('ACOSTA','MEZA','EVELYN DELINA',true,NOW(),NOW(),1),
+('AGREDA','MARIN','LUCIA FERNANDA',true,NOW(),NOW(),1),
+('AGUILAR','RIOS','PAOLO RIVALDO',true,NOW(),NOW(),1),
+('ALBORNOZ','TOME','CESAR GUSTAVO',true,NOW(),NOW(),1),
+('ALTAMIRANO','SCHLICHTMANN','NATHALY',true,NOW(),NOW(),1),
+('ALTAMIRANO','SCHLICHTMANN','SONIA LUZ',true,NOW(),NOW(),1),
+('AMICO','PALOMINO','CARLOS EDUARDO',true,NOW(),NOW(),1),
+('APOLAYA','SANCHEZ','PAOLA PATRICIA',true,NOW(),NOW(),1),
+('ARELLANO','LUCAS','HECTOR RICARDO',true,NOW(),NOW(),1),
+('ASTUDILLO','QUINTANILLA','MAYBEE ROSY',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('AYALA','MORALES','JULIO CÉSAR',true,NOW(),NOW(),1),
+('BIOCCHI','BUSTIOS','ARIADNA STEFANIA',true,NOW(),NOW(),1),
+('BAMONDE','OROZCO','ANDREA MILAGROS',true,NOW(),NOW(),1),
+('BANDA', 'JANAMPA','VERÓNICA AURORA',true,NOW(),NOW(),1),
+('BARBOZA','HAMADA','JORGE MARTIN',true,NOW(),NOW(),1),
+('BAZAN','GIL','CELSO FRANCISCO',true,NOW(),NOW(),1),
+('BELEVAN','PAZOS','MELISSA SONIA',true,NOW(),NOW(),1),
+('BELLI','HURTADO','MARÍA ELENA',true,NOW(),NOW(),1),
+('BELTRAN','RODRÍGUEZ','GIOVANA NANCY',true,NOW(),NOW(),1),
+('BENAVIDES','AGUILAR','GONZALO RUBEN',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('BORBONET','ARANDA','KAREN CRISTINA',true,NOW(),NOW(),1),
+('BUSTILLOS','MOSTACERO','DIANA ARACELLI',true,NOW(),NOW(),1),
+('CACERES','GONZALEZ','RUTH ALEJANDRA',true,NOW(),NOW(),1),
+('CACERES','SAMILLAN','IVAN EDUARDO',true,NOW(),NOW(),1),
+('CAFFERATA','GARCIA','RENZO PAOLO',true,NOW(),NOW(),1),
+('CARBONERO','ANGULO','HERNAN CARLOS',true,NOW(),NOW(),1),
+('CARDENAS','PLAZA','MARIELD',true,NOW(),NOW(),1),
+('CARRANZA','VICTORIO','NOELIA',true,NOW(),NOW(),1),
+('CARRASCO','SILVA','JIMENA NICOLE',true,NOW(),NOW(),1),
+('CARRILLO','CARRASCO','CESAR EDUARDO',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('CASAVILCA','ROBLES','CLAUDIA RAQUEL',true,NOW(),NOW(),1),
+('CASTELLANOS','CASANOVA','CARLOS CHRISTIAN',true,NOW(),NOW(),1),
+('CASTILLO','HILARES','ALEXANDRA MARIANA',true,NOW(),NOW(),1),
+('CASTRO','GALLO','MEYSSI MARCELA DEL ROSARIO',true,NOW(),NOW(),1),
+('CASTRO','SANCHEZ','CAROLINA GUISELA',true,NOW(),NOW(),1),
+('CENTENO','VASQUEZ','JOSELIN',true,NOW(),NOW(),1),
+('CHATE','HUAMAN','MIRIAM LIZBETH',true,NOW(),NOW(),1),
+('CHAVEZ','AYALA','CIRA ELIZABETH',true,NOW(),NOW(),1),
+('CHAVEZ','MALPARTIDA','KIRA',true,NOW(),NOW(),1),
+('CHAVEZ','MARTINEZ','ELOISA LILIANA',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('CHUMPITAZ','CHAVEZ','KARINA',true,NOW(),NOW(),1),
+('COJAL','CASTILLO','SILVIA VANESSA',true,NOW(),NOW(),1),
+('CONCEPCION','BENITES','ADORA LIBERTAD',true,NOW(),NOW(),1),
+('CONISLLA','TORRES','SILVIA ANGELICA',true,NOW(),NOW(),1),
+('CORDOVA','AQUICE','KATHERINE MELISSA',true,NOW(),NOW(),1),
+('CORREA','BELITO','HEYLLEN NAYELI',true,NOW(),NOW(),1),
+('CRISOSTOMO','PALOMINO','DANTE RONAL',true,NOW(),NOW(),1),
+('CRUZ','VERA','RAQUEL DEL PILAR',true,NOW(),NOW(),1),
+('CUYUBAMBA','VALDIVIA','SILVIA',true,NOW(),NOW(),1),
+('DAVALOS','BAUTISTA','CYNTHIA STHEFANNY',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('DELGADO','LUGO','LUIS EMIRO',true,NOW(),NOW(),1),
+('DIAZ','QUISPE','YESENIA REBECA',true,NOW(),NOW(),1),
+('DIAZ','SAENZ','JOVANNA MILAGROS',true,NOW(),NOW(),1),
+('DIEZ','HURTADO','DANIEL PAUL',true,NOW(),NOW(),1),
+('ESCALONA','JIMENEZ','AARON JOSE',true,NOW(),NOW(),1),
+('ESTRADA','GÓMEZ','GRACIELA VERÓNICA',true,NOW(),NOW(),1),
+('ESTRADA','VALENZUELA','FIORELLA ELIZABETH',true,NOW(),NOW(),1),
+('EUSEBIO','TADEO','NORMA',true,NOW(),NOW(),1),
+('FAILOC','ROMERO','WALTER ARMANDO',true,NOW(),NOW(),1),
+('FELIX','SULCA','WALTER IVAN',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('FERNANDEZ','DURAND','VERONICA YANET',true,NOW(),NOW(),1),
+('FERNANDEZ','VELASQUEZ','JANET GEORGINIA',true,NOW(),NOW(),1),
+('FIGUEROA','ALVAREZ','MIRIAM',true,NOW(),NOW(),1),
+('FLORES','CASTRO','MILUSKA MIRELLA',true,NOW(),NOW(),1),
+('FONTES','BRICEÑO','ELIZABETH',true,NOW(),NOW(),1),
+('GAMBOA','JIMENEZ','JHON ALONSO',true,NOW(),NOW(),1),
+('GONZALES','MORIANO','EMERSON FARID',true,NOW(),NOW(),1),
+('GODOY','CAVERO','MERCEDES',true,NOW(),NOW(),1),
+('GONZALES','SUÁREZ','JORGE NICANOR',true,NOW(),NOW(),1),
+('GUERRERO','DELGADO','RITA',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('GUTIERREZ','ZUÑIGA','ANGEL LEONARDO',true,NOW(),NOW(),1),
+('HIDALGO','WISKY','LUIS FERNANDO',true,NOW(),NOW(),1),
+('HUAMANYALLI','SURUNQUE','JOCELYN EDITH',true,NOW(),NOW(),1),
+('JUAREZ','RUIZ','ALLISON ROSSI',true,NOW(),NOW(),1),
+('LAGOS','LEGUIA','LUIS GUSTAVO',true,NOW(),NOW(),1),
+('LOPEZ','CASTRO','EDGARD ANDRE',true,NOW(),NOW(),1),
+('LOPEZ','PAUCAR','LISET PAOLA',true,NOW(),NOW(),1),
+('LOPEZ','PEREZ','SUZANNE',true,NOW(),NOW(),1),
+('LUJAN','JERI','ANDRE',true,NOW(),NOW(),1),
+('LURITA','TANG','JENNY FABIOLA',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('MACEDO','ALFARO','NARDA MIRIAM',true,NOW(),NOW(),1),
+('MAGALLANES','VELIZ','CHRISTIAN DAVID',true,NOW(),NOW(),1),
+('MALPARTIDA','SILVA','FIORELLA CECILIA',true,NOW(),NOW(),1),
+('MANRIQUE','AROTINGO','ROSSY MARIA',true,NOW(),NOW(),1),
+('MARCOS','PEREZ','DHALY CRISTINA',true,NOW(),NOW(),1),
+('MARQUEZ','ZUÑIGA','JOSE CARLOS',true,NOW(),NOW(),1),
+('MARTINEZ','HINOSTROZA','CYMTTIA ISABEL',true,NOW(),NOW(),1),
+('MARTINEZ','LIZARRAGA','SUSAN KELLY',true,NOW(),NOW(),1),
+('MAURIOLA','GUTIERREZ','JIMENA ROCIO',true,NOW(),NOW(),1),
+('MEDRANO','TENORIO','JOSE LUIS',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('MERCADO','CASTILLO','JOEL CHRISTIAN',true,NOW(),NOW(),1),
+('MEZA','SALAS','VALERIA',true,NOW(),NOW(),1),
+('MOGOLLÓN','FLORES','RITA VANESSA',true,NOW(),NOW(),1),
+('MOJICA','CHACON','MIGUEL ANGEL',true,NOW(),NOW(),1),
+('MONTALVO','AYALA','BEATRIZ',true,NOW(),NOW(),1),
+('MONTENEGRO','ORTIZ','LUIS DAVID',true,NOW(),NOW(),1),
+('MOORE','CARRILLO','KARIN JANET',true,NOW(),NOW(),1),
+('MORALES','BRAVO','ENYS AUGUSTA',true,NOW(),NOW(),1),
+('MORALES','LLAJARUNA','HEIDI ANA',true,NOW(),NOW(),1),
+('MOROCHO','SIFUENTES','JOHANNA MARITZA',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('NARVAEZ','ANZA','LUISA CRISTINA',true,NOW(),NOW(),1),
+('NEIRA','VILLACIS','ELIZABETH MERCEDES',true,NOW(),NOW(),1),
+('NUÑEZ','BRENIS','CESAR ALFREDO',true,NOW(),NOW(),1),
+('ORELLANA','ARRIETA','YAZMIN MARGARITA',true,NOW(),NOW(),1),
+('OSORIO','GONZALES','MELISSA MAYRA',true,NOW(),NOW(),1),
+('PALOMINO','QUISPE','VICTOR ANTONIO',true,NOW(),NOW(),1),
+('PATRON','INDACOCHEA','CARMEN ROSA',true,NOW(),NOW(),1),
+('PAZ','AYALA','CARLA TERESA DE JESUS',true,NOW(),NOW(),1),
+('PERDOMO','BONILLA','ARMANDO JOSE',true,NOW(),NOW(),1),
+('PLASENCIA','FERNANDEZ','MARIA ESTHER ISAMAR',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('PORRAS','TORRES','JULIA MERCEDES',true,NOW(),NOW(),1),
+('POZADA','LATOUR','CECILIA JANNETH',true,NOW(),NOW(),1),
+('PREMRL','TAKAHASHI','LAURA',true,NOW(),NOW(),1),
+('PREMRL','TAKAHASHI','ZDENKA',true,NOW(),NOW(),1),
+('PRIETO','CHAVEZ','MARIA LUISA',true,NOW(),NOW(),1),
+('PRINCIPE','MELGAREJO','LUIS',true,NOW(),NOW(),1),
+('QUIJANDRIA','MORALES','KAREN ISABEL',true,NOW(),NOW(),1),
+('QUILLILLI','BONILLA','ERIKA BRIGHIT',true,NOW(),NOW(),1),
+('QUISPE','HERRERA','ANGIE AMAITTA',true,NOW(),NOW(),1),
+('QUISPE','LOAYZA','MARÍA ELENA',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('QUISPE','ROMERO','JULIA',true,NOW(),NOW(),1),
+('RAMIREZ','LOPEZ','MARIA MAGDALENA',true,NOW(),NOW(),1),
+('RAMOS','VIDAL','CRISTINA ROSA',true,NOW(),NOW(),1),
+('RIOS','GOMEZ','JULIO CARLOS',true,NOW(),NOW(),1),
+('RODRIGUEZ','ESPEJO','ROSALIA ROSAURA',true,NOW(),NOW(),1),
+('ROSAS','CHAVARRIA','FIORELLA ANGELA',true,NOW(),NOW(),1),
+('RUIDIAS','PAZ','SANDRA ERNESTINA',true,NOW(),NOW(),1),
+('RUIZ','CALLUPE','DANTY MANUEL',true,NOW(),NOW(),1),
+('RUIZ','QUISPE','EVELYN SUMARA',true,NOW(),NOW(),1),
+('SANCHEZ','CARDENAS','MARGOT YUDI',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('SANCHEZ','MALAGA','LUCERO KATIE',true,NOW(),NOW(),1),
+('SANCHEZ','ULLOA','YESENIA MELISA',true,NOW(),NOW(),1),
+('SANCHEZ','VERA','ANGELICA MARUJA',true,NOW(),NOW(),1),
+('SANTANA','GOMEZ','MARIA ALEJANDRA',true,NOW(),NOW(),1),
+('SANTANA','PISCONTE','NANCY PATRICIA',true,NOW(),NOW(),1),
+('SCHMUCK','RIOS','MARTHA ELENA',true,NOW(),NOW(),1),
+('SEDANO','ESQUERRE','AMERICA YASMIN',true,NOW(),NOW(),1),
+('SERNA','VILLASANTE','ROSA VICTORIA',true,NOW(),NOW(),1),
+('SOLARI','GILABERT','Jean Pierre',true,NOW(),NOW(),1),
+('SOLIS','PENA','MONICA ROCIO',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('SOLIS','PEREZ','ADRIANA DEL ROCIO',true,NOW(),NOW(),1),
+('TIRADO','CULQUI','MARIA MACARENA',true,NOW(),NOW(),1),
+('TORRES','BELTRAN','ANTUANETTE',true,NOW(),NOW(),1),
+('TORRES','CASTILLO','JOSE CARLOS',true,NOW(),NOW(),1),
+('TORRES','LALOPU','CRISTOPHER',true,NOW(),NOW(),1),
+('TRINIDAD','MIÑAN','ELIZABETH',true,NOW(),NOW(),1),
+('TRIVIÑOS','GOMEZ','SERGIO DANIEL',true,NOW(),NOW(),1),
+('UCEDA','BRAVO','JESSENIA MILAGROS',true,NOW(),NOW(),1),
+('UNDA','RIOS','YANINA LIA',true,NOW(),NOW(),1),
+('VÁSQUEZ','ESCALANTE','RAUL FRANCISCO',true,NOW(),NOW(),1);
+INSERT INTO persona_persona (
+    apellido_paterno,
+    apellido_materno,
+    nombres,
+    activo,
+    created_at,
+    updated_at,
+    tipo_persona_id
+)
+VALUES
+('VÁSQUEZ','JULIAN','MILAGROS DEL CARMEN',true,NOW(),NOW(),1),
+('VEGA','PANDO','MARIA ELIZABETH',true,NOW(),NOW(),1),
+('VERA','ABANTO','CARLOS ALBERTO',true,NOW(),NOW(),1),
+('VERA','ABANTO','JOHNNY LUIS',true,NOW(),NOW(),1),
+('VIDAL','GUILLEN','VALERIA',true,NOW(),NOW(),1),
+('VILLANUEVA','RODRIGUEZ','LENIN CATALINO',true,NOW(),NOW(),1),
+('VILLOGAS','RODRIGUEZ','GERMAN HUGO',true,NOW(),NOW(),1),
+('VIZCARRA','HUAYCOCHEA','YDANIA MADALI',true,NOW(),NOW(),1),
+('YAMASHIRO','QUISPE','ELKE HARUMI',true,NOW(),NOW(),1),	
+('YAURI','CERDA','ISABEL LILIANA MARIA',true,NOW(),NOW(),1),	
+('YUIJAN','OROPEZ','MONICA ELIZABETH',true,NOW(),NOW(),1);	
+
+
+SELECT COUNT(*) FROM persona_persona;
+
