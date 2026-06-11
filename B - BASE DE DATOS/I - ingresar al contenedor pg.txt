@@ -1,0 +1,17 @@
+
+### MATER
+
+psql -U mt_jpsolarig -d mt_mater
+
+### ALMA
+
+psql -U mt_jpsolarig -d alma_db
+
+### LISTAR LAS TABLAS ###	
+	
+\dt
+	
+### LISTAR SUS CAMPOS ###	
+
+\d persona
+
