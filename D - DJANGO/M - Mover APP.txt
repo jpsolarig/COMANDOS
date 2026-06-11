@@ -1,0 +1,65 @@
+
+
+### RENOMBRAR
+
+mv asistencia asistencia_old
+
+### CAMBIAR LOS NOMBRES asistencia_old/apps.py:
+
+class AsistenciaOldConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'asistencia_old'
+    verbose_name = 'Asistencia antigua'
+
+### CREAR NUEVA APP
+
+python manage.py startapp asistencia
+
+### settings.py:
+
+'asistencia',
+
+### BORRAR LAS MIGRACIONES 
+
+rm asistencia_old/migrations/0*.py
+
+
+### BORAR RASTRO DE LA BASE DE DATOS ###
+
+--> ENTAR AL PostgreSQL:
+
+--> LUEGO:
+
+DELETE FROM django_migrations WHERE app = 'asistencia';
+
+DELETE FROM django_migrations WHERE app = 'asistencia_old';
+
+### VER TABLAS ###
+
+\dt asistencia*
+
+### REVISAR CANTIDAD DE TABLS ####
+
+\dt asis*
+
+SELECT tablename
+FROM pg_tables
+WHERE schemaname = 'public'
+AND tablename LIKE 'asistencia%';
+
+### ELIMINAR TODAS LAS TABLAS VIEJAS
+
+DO $$
+DECLARE
+    r RECORD;
+BEGIN
+    FOR r IN
+        SELECT tablename
+        FROM pg_tables
+        WHERE schemaname = 'public'
+        AND tablename LIKE 'asistencia%'
+    LOOP
+        EXECUTE 'DROP TABLE IF EXISTS "' || r.tablename || '" CASCADE';
+    END LOOP;
+END $$;
+
