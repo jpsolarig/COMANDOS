@@ -1,9 +1,13 @@
 
-### MATER
+### INGRESAR AL CONTENEDOR ###
+
+docker exec -it pg bash
+	
+### INGRESA A MATER
 
 psql -U mt_jpsolarig -d mt_mater
 
-### ALMA
+### INGRESA A ALMA
 
 psql -U mt_jpsolarig -d alma_db
 
