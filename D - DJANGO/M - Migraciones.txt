@@ -1,0 +1,18 @@
+
+python manage.py check
+
+
+
+python manage.py makemigrations asistencia
+
+python manage.py makemigrations
+
+
+python manage.py migrate asistencia
+
+python manage.py migrate
+
+
+python manage.py showmigrations asistencia
+
+python manage.py showmigrations 
