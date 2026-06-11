@@ -5,6 +5,12 @@ TRUNCATE TABLE persona_persona RESTART IDENTITY CASCADE;
 
 ### LISTAR LOS REGISTROS DE UNA TABLA ###
 
+SELECT * FROM nombre_tabla;
+
+SELECT * FROM persona_persona;
+
+### CONTAR LOS REGISTROS DE UNA TABLA ###
+
 SELECT COUNT(*) FROM persona_persona;
 
 

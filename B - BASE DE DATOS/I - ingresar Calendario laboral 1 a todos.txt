@@ -1,0 +1,24 @@
+INSERT INTO asistencia_calendario_laboral_persona (
+    fecha_inicio,
+    fecha_fin,
+    activo,
+    fecha_creacion,
+    fecha_actualizacion,
+    calendario_laboral_id,
+    persona_id
+)
+SELECT
+    '2025-12-20',
+    NULL,
+    true,
+    NOW(),
+    NOW(),
+    1,
+    p.id
+FROM persona_persona p
+WHERE p.tipo_persona_id = 1
+AND NOT EXISTS (
+    SELECT 1
+    FROM asistencia_calendario_laboral_persona acp
+    WHERE acp.persona_id = p.id
+);

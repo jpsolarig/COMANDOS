@@ -1,0 +1,38 @@
+
+### CARPETAS
+
+mkdir asistencia/admin
+
+mkdir asistencia/models
+
+mkdir asistencia/templates
+
+mkdir asistencia/templates/asistencia
+
+mkdir asistencia/templates/asistencia/dashboard
+
+mkdir asistencia/views
+
+mkdir asistencia/services
+
+mkdir asistencia/forms
+
+mkdir asistencia/static
+
+### TOUCH
+
+touch asistencia/admin/__init__.py
+
+touch asistencia/models/__init__.py
+
+touch asistencia/views/__init__.py
+
+touch asistencia/services/__init__.py
+
+touch asistencia/forms/__init__.py
+
+rm -f asistencia/admin.py
+rm -f asistencia/models.py
+rm -f asistencia/views.py
+rm -f asistencia/forms.py
+rm -f asistencia/tests.py
