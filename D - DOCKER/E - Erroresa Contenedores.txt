@@ -1,0 +1,9 @@
+
+### ADM ###
+
+docker logs --tail 100 adm
+
+### ALMA ###
+
+docker logs --tail 100 alma
+
