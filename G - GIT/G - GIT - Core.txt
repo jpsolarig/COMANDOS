@@ -1,0 +1,15 @@
+
+### ADM ###
+
+git status
+git add core/
+git commit -m "Cambio core"
+git push
+
+### ALMA ###
+
+git pull
+python manage.py check
+
+jpsolarig
+

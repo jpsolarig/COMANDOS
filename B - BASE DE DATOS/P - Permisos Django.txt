@@ -1,0 +1,49 @@
+
+### VER PERMISOS ###
+
+### CORE ###
+
+SELECT id, name, codename
+FROM auth_permission
+WHERE content_type_id IN (
+    SELECT id FROM django_content_type WHERE app_label = 'core'
+)
+ORDER BY codename;
+
+### PERSONA ###
+
+SELECT id, name, codename
+FROM auth_permission
+WHERE content_type_id IN (
+    SELECT id FROM django_content_type WHERE app_label = 'persona'
+)
+ORDER BY codename;
+
+
+
+
+### CAMBIAR PERMISO ###
+
+
+UPDATE auth_permission
+SET name = 'Ver'
+WHERE codename = 'view_permisodashboard';
+
+UPDATE auth_permission
+SET name = 'Crear'
+WHERE codename = 'add_permisodashboard';
+
+
+
+UPDATE auth_permission
+SET name = 'Crear'
+WHERE codename = 'add_persona';
+
+UPDATE auth_permission
+SET name = 'Modificar'
+WHERE codename = 'change_permisodashboard';
+
+UPDATE auth_permission
+SET name = 'Eliminar'
+WHERE codename = 'delete_permisodashboard';
+

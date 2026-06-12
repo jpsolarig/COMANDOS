@@ -1,18 +1,28 @@
 
 python manage.py check
 
-
-
 python manage.py makemigrations asistencia
-
-python manage.py makemigrations
-
 
 python manage.py migrate asistencia
 
-python manage.py migrate
-
-
 python manage.py showmigrations asistencia
 
+
+python manage.py check
+
+python manage.py makemigrations persona
+
+python manage.py migrate persona
+
+python manage.py showmigrations persona
+
+
+python manage.py check
+
+python manage.py makemigrations
+
+python manage.py migrate
+
 python manage.py showmigrations 
+
+
