@@ -13,4 +13,3 @@ python manage.py check
 
 jpsolarig
 
-##################ghp_GsOXlpM7vbo0IvtgF1WJ##########xx6f16yQGx0tSbPm########################
