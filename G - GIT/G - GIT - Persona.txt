@@ -2,14 +2,12 @@
 ### ADM ###
 
 git status
+
 git add persona/
-git commit -m "Cambio persona"
+
+git commit -m "Cambio persona 2"
+
 git push
-
-### ALMA ###
-
-git pull
-python manage.py check
 
 jpsolarig
 

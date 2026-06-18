@@ -6,11 +6,12 @@ docker exec -it adm bash
 
 git status
 
-git add core/
+git add app/
 
-git commit -m "Cambio core 3"
+git commit -m "Cambio app 2"
 
 git push
+
 
 jpsolarig
 

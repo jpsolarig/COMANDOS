@@ -1,0 +1,17 @@
+
+### ADM ###
+
+docker exec -it adm bash
+
+cd /app
+
+git status
+
+git add asistencia/
+
+git commit -m "Cambio asistencia"
+
+git push
+
+jpsolarig
+

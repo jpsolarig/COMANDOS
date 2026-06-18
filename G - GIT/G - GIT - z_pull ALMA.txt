@@ -1,0 +1,12 @@
+
+
+docker exec -it alma bash
+
+### ALMA ###
+
+git pull
+
+python manage.py check
+
+jpsolarig
+
