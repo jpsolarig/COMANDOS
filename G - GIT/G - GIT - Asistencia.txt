@@ -9,7 +9,7 @@ git status
 
 git add asistencia/
 
-git commit -m "Cambio asistencia"
+git commit -m "Cambio asistencia 2"
 
 git push
 
