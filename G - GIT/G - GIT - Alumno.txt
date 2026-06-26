@@ -4,11 +4,9 @@ git config --global credential.helper store
 
 git status
 
-git add persona/
+git add alumno/
 
 git commit -m "Cambio persona 3"
-
-git commit -m "Agregar mensajeria con Celery y Redis"
 
 git push
 

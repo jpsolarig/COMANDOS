@@ -2,13 +2,15 @@
 
 docker exec -it adm bash
 
+git config --global credential.helper store
+
 ### ADM ###
 
 git status
 
 git add core/
 
-git commit -m "Cambio core 4"
+git commit -m "Cambio core 5"
 
 git push
 
